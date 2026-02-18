@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YOUCAST × Iquall Networks - MWC Barcelona 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loading Screen with Vinheta -->
+  <div id="loading-screen" class="loading-screen">
+    <video autoplay muted playsinline id="loading-video">
+      <source src="youcast-vinheta.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content">
+    
+    <!-- Navigation Bar -->
+    <header id="navbar" class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-inner">
+          <!-- Logo -->
+          <div class="navbar-logo">
+            <a href="#" class="logo-link">
+              <img src="youcast-logo.png" alt="Youcast" class="logo-img">
+              <span class="logo-separator">|</span>
+              <img src="iquall-logo.png" alt="IQUALL Networks" class="logo-img">
+            </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a href="#ondes-encontrar" class="nav-link">Onde nos Encontrar</a>
+            <a href="#plataforma" class="nav-link">Plataforma</a>
+            <a href="#resultados" class="nav-link">Resultados</a>
+            <a href="#quem-somos" class="nav-link">Quem Somos</a>
+            <a href="#demonstracoes" class="nav-link">Demonstrações</a>
+            <a href="#faq" class="nav-link">FAQ</a>
+          </nav>
+
+          <!-- CTA Button -->
+          <div class="navbar-cta">
+            <a href="#agendamento" class="nav-cta-btn">
+              <span class="btn-text-default">Solicitar Demo <span class="btn-separator">|</span> <span class="btn-mat-icon">MAT</span></span>
+              <span class="btn-text-hover">Veja em Ação <span class="btn-separator">|</span> <span class="btn-mat-icon">MAT</span></span>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu">
+            <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <svg class="close-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <div class="mobile-menu-container">
+          <nav class="mobile-nav">
+            <a href="#ondes-encontrar" class="mobile-nav-link">Onde nos Encontrar</a>
+            <a href="#plataforma" class="mobile-nav-link">Plataforma</a>
+            <a href="#resultados" class="mobile-nav-link">Resultados</a>
+            <a href="#quem-somos" class="mobile-nav-link">Quem Somos</a>
+            <a href="#demonstracoes" class="mobile-nav-link">Demonstrações</a>
+            <a href="#faq" class="mobile-nav-link">FAQ</a>
+            <a href="#agendamento" class="nav-cta-btn mobile-cta">
+              <span class="btn-text-default">Solicitar Demo <span class="btn-separator">|</span> <span class="btn-mat-icon">MAT</span></span>
+              <span class="btn-text-hover">Veja em Ação <span class="btn-separator">|</span> <span class="btn-mat-icon">MAT</span></span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-bg">
+        <img src="barcelona-hero.png" alt="Barcelona skyline" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="scroll-reveal" data-animation="fade-up">
+          <h1 class="hero-title">
+            <span class="hero-title-bold">Automação de ISPs:</span>
+            <span class="hero-title-normal">Do Improviso à Inteligência Artificial</span>
+          </h1>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+          <p class="hero-subtitle">A plataforma SaaS que transforma operadoras regionais em players digitais de ponta</p>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.15">
+          <div class="hero-buttons">
+            <a href="#agendamento" class="btn-hero-primary">
+              Agendar Reunião
+              <span class="arrow-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </a>
+            <a href="#plataforma" class="btn-outline-premium">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+          <div class="hero-event-info">
+            <div class="event-info-inner">
+              <svg class="calendar-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span class="event-text">Lançamento Oficial: MWC Barcelona 2026 | 2–5 Março</span>
+            </div>
+            <div class="event-divider"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator"><span></span></div>
+    </section>
+
+    <!-- Onde Encontrar Section -->
+    <section id="ondes-encontrar" class="onde-encontrar-section">
+      <div class="container">
+        <div class="onde-encontrar-inner">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <h2 class="onde-encontrar-title">Pavilhão 5 | Estande 5C10</h2>
+          </div>
+
+          <div class="onde-encontrar-grid">
+            <div class="scroll-reveal" data-animation="fade-right" data-delay="0.2">
+              <div class="animated-border-box">
+                <div class="section-label">Onde nos encontrar?</div>
+                <div class="onde-encontrar-text">
+                  <p>O estande da Iquall Networks, localizado no Pavilhão 5 (5C10), pode ser facilmente encontrado seguindo nossas instruções detalhadas.</p>
+                  <p>Entre em contato para agendar uma reunião e assim poderemos enviar instruções precisas sobre como nos encontrar rapidamente e estar pronto para tomar um café conosco.</p>
+                </div>
+                <div class="onde-encontrar-cta">
+                  <a href="#agendamento" class="btn-dark-section">
+                    <span>Agendar Visita</span>
+                    <span class="arrow-icon arrow-yellow">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-left" data-delay="0.4">
+              <div class="animated-border-box-image" id="estande-image">
+                <img src="estande-barcelona.png" alt="Estande Youcast × Iquall Networks - MWC Barcelona 2026" class="estande-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cenário Atual Section -->
+    <section class="cenario-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <div class="section-label-dark">O Cenário Atual</div>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <h2 class="section-title-dark">O Desafio dos ISPs Brasileiros</h2>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <p class="section-subtitle-dark">Provedores regionais enfrentam barreiras que limitam seu crescimento e competitividade</p>
+          </div>
+        </div>
+
+        <div class="problem-cards-grid">
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <div class="glass-card-light">
+              <div class="card-icon-black">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <h3 class="card-title-dark">Operações manuais e improvisadas</h3>
+              <p class="card-desc-dark">Processos ineficientes que consomem tempo e recursos</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <div class="glass-card-light">
+              <div class="card-icon-black">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="card-title-dark">Falta de previsibilidade nos processos</h3>
+              <p class="card-desc-dark">Impossibilidade de planejar o crescimento de forma sustentável</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+            <div class="glass-card-light">
+              <div class="card-icon-black">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="6" height="6" rx="1"></rect>
+                  <rect x="16" y="2" width="6" height="6" rx="1"></rect>
+                  <rect x="9" y="16" width="6" height="6" rx="1"></rect>
+                  <path d="M5 8v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"></path>
+                  <line x1="12" y1="13" x2="12" y2="16"></line>
+                </svg>
+              </div>
+              <h3 class="card-title-dark">Infraestrutura híbrida difícil de gerenciar</h3>
+              <p class="card-desc-dark">Complexidade na gestão de múltiplas tecnologias simultâneas</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.4">
+            <div class="glass-card-light">
+              <div class="card-icon-black">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="card-title-dark">Competição desigual com grandes operadoras</h3>
+              <p class="card-desc-dark">Sem acesso às mesmas ferramentas e recursos tecnológicos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-reveal" data-animation="zoom-in" data-delay="0.5">
+          <div class="quote-box">
+            <div class="quote-content">
+              <div class="quote-mark">"</div>
+              <div class="quote-text-wrap">
+                <p class="quote-text">O ISP brasileiro necessita parar de operar na base do improviso e passar a trabalhar com previsibilidade, eficiência e dados. Automatizar não é mais diferencial – é sobrevivência competitiva.</p>
+                <div class="quote-author">
+                  <div class="author-avatar">RF</div>
+                  <div class="author-info">
+                    <p class="author-name">Raul Faller</p>
+                    <p class="author-title">CEO Youcast</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plataforma Section -->
+    <section id="plataforma" class="plataforma-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <div class="section-label">Nossa Plataforma</div>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <h2 class="section-title">Orquestração Inteligente para Provedores de Internet</h2>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <p class="section-subtitle">Uma plataforma SaaS completa que transforma a maneira como ISPs operam</p>
+          </div>
+        </div>
+
+        <div class="feature-cards-grid">
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <div class="platform-card">
+              <div class="card-icon-white">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a8 8 0 0 0-8 8c0 4.314 3.5 8 8 8s8-3.686 8-8a8 8 0 0 0-8-8z"></path>
+                  <path d="M12 18v4"></path>
+                  <path d="M8 22h8"></path>
+                  <circle cx="12" cy="10" r="2"></circle>
+                </svg>
+              </div>
+              <h3 class="feature-title">IA e Automação</h3>
+              <p class="feature-desc">Camada de orquestração inteligente baseada em IA com redução de até 80% das tarefas manuais e decisões em tempo real.</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <div class="platform-card">
+              <div class="card-icon-white">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="6" height="6" rx="1"></rect>
+                  <rect x="16" y="2" width="6" height="6" rx="1"></rect>
+                  <rect x="9" y="16" width="6" height="6" rx="1"></rect>
+                  <path d="M5 8v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"></path>
+                  <line x1="12" y1="13" x2="12" y2="16"></line>
+                </svg>
+              </div>
+              <h3 class="feature-title">Infraestrutura Híbrida</h3>
+              <p class="feature-desc">Gerenciamento unificado de fibra, rádio, Wi-Fi e 4G/5G com visibilidade completa da rede e integração com sistemas legados.</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+            <div class="platform-card">
+              <div class="card-icon-white">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="feature-title">Escalabilidade SaaS</h3>
+              <p class="feature-desc">Modelo que cresce com sua base de assinantes, sem investimento inicial em infraestrutura, com updates automáticos.</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.4">
+            <div class="platform-card">
+              <div class="card-icon-white">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <h3 class="feature-title">Ferramentas Enterprise</h3>
+              <p class="feature-desc">Acesso às mesmas tecnologias das grandes teles com relatórios avançados e previsibilidade operacional e financeira.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.5">
+          <div class="section-cta">
+            <a href="#agendamento" class="btn-dark-section">
+              <span>Quero Conhecer a Plataforma</span>
+              <span class="arrow-icon arrow-yellow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resultados Section -->
+    <section id="resultados" class="resultados-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <div class="section-label-dark">Resultados Reais</div>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <h2 class="section-title-dark">Resultados que Transformam seu Negócio</h2>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <p class="section-subtitle-dark">Métricas comprovadas do impacto real da nossa plataforma na operação dos ISPs</p>
+          </div>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <div class="metric-card">
+              <div class="metric-value" data-target="80" data-suffix="%">0%</div>
+              <h3 class="metric-title">Automação</h3>
+              <p class="metric-desc">Redução em processos manuais com orquestração inteligente</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <div class="metric-card">
+              <div class="metric-value" data-target="100" data-suffix="%">0%</div>
+              <h3 class="metric-title">Visibilidade</h3>
+              <p class="metric-desc">Controle total da rede em tempo real</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+            <div class="metric-card">
+              <div class="metric-value" data-target="0" data-prefix="R$">R$0</div>
+              <h3 class="metric-title">Investimento</h3>
+              <p class="metric-desc">Zero investimento inicial em infraestrutura</p>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.4">
+            <div class="metric-card">
+              <div class="metric-value" data-target="24" data-suffix="h">0h</div>
+              <h3 class="metric-title">Implementação</h3>
+              <p class="metric-desc">Tempo para início da operação</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.5">
+          <div class="section-cta">
+            <a href="#agendamento" class="btn-gray-section">
+              <span>Quero Esses Resultados</span>
+              <span class="arrow-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem Somos Section -->
+    <section id="quem-somos" class="quem-somos-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <div class="section-label">Quem Somos</div>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <h2 class="section-title">Uma Parceria de Excelência</h2>
+          </div>
+        </div>
+
+        <div class="quem-somos-grid">
+          <div class="scroll-reveal" data-animation="fade-right" data-delay="0.2">
+            <div class="glass-card">
+              <div class="company-logo">
+                <img src="youcast-logo.png" alt="Youcast" class="company-logo-img">
+              </div>
+              <p class="company-tagline">Conectando tecnologia</p>
+              <ul class="company-features">
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Integradora líder em soluções para provedores e telecomunicações</span>
+                </li>
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Especialista em monitoramento e infraestrutura de redes</span>
+                </li>
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Plataforma IPTV/OTT incomparável</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="scroll-reveal" data-animation="fade-left" data-delay="0.4">
+            <div class="glass-card">
+              <div class="company-logo">
+                <img src="iquall-logo.png" alt="IQUALL Networks" class="company-logo-img">
+              </div>
+              <p class="company-tagline">Automação inteligente</p>
+              <ul class="company-features">
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Desenvolvedora de software especializada em automação para telecom</span>
+                </li>
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Parceira tecnológica estratégica com foco em inovação</span>
+                </li>
+                <li>
+                  <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Soluções robustas e escaláveis para o setor de telecomunicações</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demonstrações Section -->
+    <section id="demonstracoes" class="demonstracoes-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="scroll-reveal" data-animation="fade-up">
+            <div class="section-label-dark">Experiência Prática</div>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+            <h2 class="section-title-dark">Demonstrações AO VIVO no MWC</h2>
+          </div>
+          <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+            <p class="section-subtitle-dark">Veja a plataforma em ação com nossos especialistas durante todo o evento</p>
+          </div>
+        </div>
+
+        <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+          <div class="carousel-container">
+            <div class="carousel-wrapper">
+              <div class="carousel-track" id="carousel-track">
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">B2C Service Activation</h3>
+                    <p class="carousel-desc">Ativação automatizada de serviços para clientes B2C</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">B2C Service Qualification</h3>
+                    <p class="carousel-desc">Verificação de elegibilidade e disponibilidade de serviços</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">Zero Touch Troubleshooting</h3>
+                    <p class="carousel-desc">Resolução automática de problemas sem intervenção manual</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">Service Inventory</h3>
+                    <p class="carousel-desc">Gestão completa do inventário de serviços e recursos</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">Service Compliance</h3>
+                    <p class="carousel-desc">Monitoramento de conformidade e qualidade de serviços</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="6" height="6" rx="1"></rect>
+                        <rect x="16" y="2" width="6" height="6" rx="1"></rect>
+                        <rect x="9" y="16" width="6" height="6" rx="1"></rect>
+                        <path d="M5 8v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"></path>
+                        <line x1="12" y1="13" x2="12" y2="16"></line>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">Smart Routing</h3>
+                    <p class="carousel-desc">Roteamento inteligente de tráfego baseado em IA</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+
+                <div class="carousel-slide">
+                  <div class="carousel-card">
+                    <div class="carousel-icon">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                        <polyline points="17 6 23 6 23 12"></polyline>
+                      </svg>
+                    </div>
+                    <h3 class="carousel-title">Capacity Planning</h3>
+                    <p class="carousel-desc">Planejamento de capacidade com previsão de demanda</p>
+                    <div class="carousel-footer"><span>Demo ao vivo</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-btn carousel-prev" id="carousel-prev">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <button class="carousel-btn carousel-next" id="carousel-next">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Garanta seu Lugar Section -->
+    <section class="garanta-section">
+      <div class="container">
+        <div class="scroll-reveal" data-animation="zoom-in">
+          <div class="garanta-box">
+            <div class="garanta-content">
+              <div class="scroll-reveal" data-animation="fade-up">
+                <h2 class="garanta-title">Garanta seu Lugar nas Demonstrações</h2>
+              </div>
+              <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+                <p class="garanta-subtitle">Agende uma reunião e reserve seu horário para ver as demos ao vivo</p>
+              </div>
+
+              <div class="benefits-grid">
+                <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+                  <div class="benefit-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>Tire dúvidas técnicas diretamente com especialistas</span>
+                  </div>
+                </div>
+                <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+                  <div class="benefit-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="18" y1="20" x2="18" y2="10"></line>
+                      <line x1="12" y1="20" x2="12" y2="4"></line>
+                      <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                    <span>Veja casos de uso reais aplicados ao seu negócio</span>
+                  </div>
+                </div>
+                <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+                  <div class="benefit-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>Receba uma avaliação gratuita de automação</span>
+                  </div>
+                </div>
+                <div class="scroll-reveal" data-animation="fade-up" data-delay="0.4">
+                  <div class="benefit-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Networking com outros líderes de ISPs</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="scroll-reveal" data-animation="fade-up" data-delay="0.5">
+                <a href="#agendamento" class="btn-quote-section">
+                  <span>Agendar Demonstração</span>
+                  <span class="arrow-icon arrow-yellow">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                      <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendamento Section -->
+    <section id="agendamento" class="agendamento-section">
+      <div class="container">
+        <div class="agendamento-inner">
+          <div class="agendamento-grid">
+            <div class="scroll-reveal" data-animation="fade-right">
+              <div class="agendamento-info">
+                <div class="section-label">MWC Barcelona 2026</div>
+                <h2 class="agendamento-title">Agende sua Reunião Presencial</h2>
+                <p class="agendamento-desc">Nosso time entrará em contato em até 24h para confirmar sua reunião</p>
+
+                <div class="info-cards">
+                  <div class="info-card">
+                    <div class="info-card-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="info-card-title">Fira Barcelona Gran Via</p>
+                      <p class="info-card-subtitle">Espanha</p>
+                    </div>
+                  </div>
+
+                  <div class="info-card">
+                    <div class="info-card-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="info-card-title">2 a 5 de Março de 2026</p>
+                      <p class="info-card-subtitle">Mobile World Congress</p>
+                    </div>
+                  </div>
+
+                  <div class="info-card">
+                    <div class="info-card-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="info-card-title">Pavilhão 5 | Estande 5C10</p>
+                      <p class="info-card-subtitle">Youcast × Iquall Networks</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="trust-indicators">
+                <div class="trust-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                  <span>Dados seguros</span>
+                </div>
+                <div class="trust-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Resposta em 24h</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-left" data-delay="0.2">
+              <div class="form-card" id="form-card">
+                <div id="success-message" class="success-message hidden">
+                  <div class="success-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <h3 class="success-title">Agendamento Enviado!</h3>
+                  <p class="success-text">Obrigado pelo interesse! Nossa equipe entrará em contato em até 24 horas.</p>
+                  <button id="new-booking-btn" class="btn-premium">Fazer novo agendamento</button>
+                </div>
+
+                <form id="agendamento-form" class="agendamento-form">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="nome" class="form-label">Nome completo *</label>
+                      <input type="text" id="nome" name="nome" required class="form-input" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                      <label for="empresa" class="form-label">Empresa *</label>
+                      <input type="text" id="empresa" name="empresa" required class="form-input" placeholder="Nome da empresa">
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="cargo" class="form-label">Cargo *</label>
+                      <input type="text" id="cargo" name="cargo" required class="form-input" placeholder="Seu cargo">
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="form-label">E-mail corporativo *</label>
+                      <input type="email" id="email" name="email" required class="form-input" placeholder="seu@email.com">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="telefone" class="form-label">Telefone/WhatsApp *</label>
+                    <input type="tel" id="telefone" name="telefone" required class="form-input" placeholder="+55 (11) 99999-9999">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Quais demonstrações você quer ver?</label>
+                    <div class="checkbox-grid">
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="B2C Service Activation">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">B2C Service Activation</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="B2C Service Qualification">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">B2C Service Qualification</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="Zero Touch Troubleshooting">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">Zero Touch Troubleshooting</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="Service Inventory">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">Service Inventory</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="Service Compliance">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">Service Compliance</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="Smart Routing">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">Smart Routing</span>
+                      </label>
+                      <label class="checkbox-item">
+                        <input type="checkbox" name="demonstracoes" value="Capacity Planning">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">Capacity Planning</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="desafios" class="form-label">Conte-nos sobre os desafios do seu ISP</label>
+                    <textarea id="desafios" name="desafios" rows="3" class="form-input form-textarea" placeholder="Descreva os principais desafios..."></textarea>
+                  </div>
+
+                  <div class="form-checkbox">
+                    <label class="checkbox-item">
+                      <input type="checkbox" id="autorizado" name="autorizado" required>
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-label">Autorizo contato da Youcast sobre a plataforma.</span>
+                    </label>
+                  </div>
+
+                  <div id="error-message" class="error-message hidden">
+                    Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.
+                  </div>
+
+                  <button type="submit" class="btn-premium btn-submit">
+                    <span id="submit-text">Confirmar agendamento</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="faq-inner">
+          <div class="section-header">
+            <div class="scroll-reveal" data-animation="fade-up">
+              <div class="section-label">FAQ</div>
+            </div>
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+              <h2 class="section-title">Perguntas Frequentes</h2>
+            </div>
+          </div>
+
+          <div class="faq-accordion">
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.1">
+              <div class="faq-item glass-card">
+                <button class="faq-trigger">
+                  <span>O que é a plataforma Youcast × Iquall Networks?</span>
+                  <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-content">
+                  <p>É uma plataforma SaaS de orquestração inteligente baseada em IA que unifica o gerenciamento de infraestruturas híbridas (fibra, rádio, Wi-Fi, 4G/5G), automatizando operações e trazendo previsibilidade para ISPs.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.2">
+              <div class="faq-item glass-card">
+                <button class="faq-trigger">
+                  <span>Quais tipos de ISPs podem usar a solução?</span>
+                  <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-content">
+                  <p>A plataforma foi projetada para provedores regionais de todos os portes que operem com infraestruturas híbridas e busquem automação, eficiência e crescimento escalável.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.3">
+              <div class="faq-item glass-card">
+                <button class="faq-trigger">
+                  <span>Qual o modelo de contratação?</span>
+                  <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-content">
+                  <p>O modelo é SaaS (Software como Serviço), sem investimento inicial em infraestrutura. A plataforma cresce junto com a sua base de assinantes, com custos previsíveis e escaláveis.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.4">
+              <div class="faq-item glass-card">
+                <button class="faq-trigger">
+                  <span>Como funciona a implementação?</span>
+                  <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-content">
+                  <p>A implementação é rápida e guiada por nossa equipe técnica. A integração com sistemas legados é suportada nativamente, minimizando o impacto nas operações atuais.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-reveal" data-animation="fade-up" data-delay="0.5">
+              <div class="faq-item glass-card">
+                <button class="faq-trigger">
+                  <span>Posso agendar uma demo mesmo sem ir ao MWC?</span>
+                  <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-content">
+                  <p>Sim! Preencha o formulário de agendamento e nossa equipe entrará em contato para organizar uma demonstração remota da plataforma.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-divider"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-logo">
+              <img src="youcast-logo.png" alt="Youcast" class="footer-logo-img">
+              <span class="logo-separator">|</span>
+              <img src="iquall-logo.png" alt="IQUALL Networks" class="footer-logo-img">
+            </div>
+            <p class="footer-desc">Integrando o futuro da automação de ISPs com inteligência artificial e orquestração de redes.</p>
+          </div>
+
+          <div class="footer-col">
+            <div class="footer-col-title">Youcast</div>
+            <ul class="footer-links">
+              <li>
+                <a href="https://youcast.tv.br" target="_blank" class="footer-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  youcast.tv.br
+                </a>
+              </li>
+              <li>
+                <a href="mailto:comercial@youcast.tv.br" class="footer-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  comercial@youcast.tv.br
+                </a>
+              </li>
+              <li>
+                <a href="https://w.app/4qpvgo" target="_blank" class="footer-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  +55 11 9 9635-5309
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <div class="footer-col-title">Iquall Networks</div>
+            <ul class="footer-links">
+              <li class="footer-text">Parceira tecnológica estratégica.</li>
+              <li>
+                <a href="https://iquall.net" target="_blank" class="footer-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  Visite o site oficial
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col-title-bold">MWC Barcelona 2026</h3>
+            <ul class="footer-links">
+              <li class="footer-text footer-text-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Fira Barcelona Gran Via
+              </li>
+              <li class="footer-text footer-text-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                2–5 de março de 2026
+              </li>
+              <li>
+                <a href="https://mwcbarcelona.com" target="_blank" class="footer-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  mwcbarcelona.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <p>© 2026 Youcast × Iquall Networks. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Floating Badge -->
+  <div id="floating-badge" class="floating-badge hidden">
+    <div class="badge-glow"></div>
+    <div class="badge-content">
+      <div class="badge-dot"></div>
+      <span>5C10</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFCD05" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
